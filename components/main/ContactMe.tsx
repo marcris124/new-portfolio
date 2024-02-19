@@ -1,8 +1,7 @@
 import { EnvelopeIcon } from '@heroicons/react/24/solid'
 import Image from 'next/image'
 import React from 'react'
-import { FaWhatsapp } from 'react-icons/fa'
-import { RxGithubLogo } from 'react-icons/rx'
+
 
 const ContactMe = () => {
   return (
