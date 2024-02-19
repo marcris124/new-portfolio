@@ -25,12 +25,12 @@ const ProjectCard = ({ src, title, description, link }: Props) => {
       <div className="relative p-4 ">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300">{description}</p>
-        <motion.a
-          variants={slideInFromLeft(1)}
+        <a href={link}
+         target="_blank"
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] mt-2 grid"
         >
           Ver Proyecto
-        </motion.a>
+        </a>
       </div>
     </div>
   );
